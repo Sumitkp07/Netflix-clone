@@ -1,0 +1,37 @@
+@media screen and (max-width: 1100px) {
+    .first{
+        flex-wrap: wrap;
+        text-align: center;
+        padding-top: 10px;
+
+    }
+    .footer-itmes {
+        max-width: 90vw;
+        flex-wrap: wrap;
+    }
+    
+  }
+
+  @media screen and (max-width: 650px) {
+    .first{
+        flex-wrap: wrap;
+        text-align: center;
+        padding-top: 1px;
+
+    }
+    nav{
+        max-width: 95vw;
+    }
+    .hero > :nth-child(1) {
+        font-family: "Martel Sans", sans-serif;
+        font-weight: 900;
+        font-size: 2rem;
+      }
+  }
+  @media screen and (max-width: 650px){
+    .main{
+        width: 100vw;
+        background-position: center;
+        
+    }
+  }

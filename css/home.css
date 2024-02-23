@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Martel+Sans:wght@600;900&family=Noto+Sans&family=REM:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Martel+Sans:wght@300&family=Noto+Sans&family=REM:wght@300&display=swap");
+:root {
+  --setcolor: rgb(199, 22, 22);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Martel Sans", sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("/Content/img/main-img.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.box {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+}
+nav {
+  max-width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+nav img {
+  color: rgb(218, 0, 0);
+  width: 160px;
+  position: relative;
+  z-index: 10;
+}
+.right {
+  z-index: 11;
+}
+.right .sm-btn1 {
+  font-family: "Martel Sans", sans-serif;
+  border: 2px solid rgba(253, 253, 253, 0.514);
+  border-width: 0.01px;
+  background-color: black;
+  border-radius: 4px;
+  height: 32px;
+  width: 126px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 3px;
+  cursor: pointer;
+}
+.right .sm-btn2 {
+  font-family: "Martel Sans", sans-serif;
+  border: 2px solid var(--setcolor);
+  background-color: var(--setcolor);
+  border-radius: 2px;
+  height: 32px;
+  width: 76px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 3px;
+  cursor: pointer;
+}
+
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  font-size: 900;
+  height: calc(100% - 75px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+  position: relative;
+  /* gap: 23px; */
+  padding: 0 30px;
+  text-align: center;
+}
+.hero > :nth-child(1) {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-size: 2.8rem;
+}
+.hero > :nth-child(2) {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+/* hero> for immidiate nth child */
+.hero > :nth-child(3) {
+  font-size: 1.17rem;
+  margin-top: 18px;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+.mail input {
+  position: relative;
+  height: 50px;
+  width: 370px;
+  border: 1.2px solid rgba(92, 95, 92, 0.856);
+  background-color: rgba(0, 0, 0, 0.527);
+  border-radius: 4px;
+}
+.mail input::placeholder {
+  position: relative;
+  left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.671);
+}
+.mail button {
+  border: 2px solid var(--setcolor);
+  background-color: var(--setcolor);
+  border-radius: 3px;
+  height: 53px;
+  width: 210px;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  top: 3px;
+}
+.sepration {
+  height: 8px;
+  width: 100vw;
+  background-color: rgb(35, 35, 35);
+  position: relative;
+  z-index: 12;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 80vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.section-img {
+  position: relative;
+  /* top: 35px; */
+  margin-bottom: 25px;
+}
+.section-img img {
+  width: 546px;
+  position: relative;
+  z-index: 10;
+}
+.section-img video {
+  position: absolute;
+  width: 546px;
+  top: 41px;
+  right: 0px;
+  z-index: -8;
+}
+.third-vedio video {
+  position: absolute;
+  width: 340px;
+  top: 41px;
+  right: 95px;
+  z-index: -8;
+}
+.first div {
+  display: flex;
+  flex-direction: column;
+}
+.first-mainheading {
+  font-size: 48px;
+  font-weight: 900;
+}
+.first-subheading {
+  font-size: 20px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 20px;
+}
+.faq-box {
+  display: flex;
+  background-color: rgb(44, 44, 44);
+  font-size: 1.4rem;
+  max-width: 70vw;
+  margin: 10px auto;
+  height: 50px;
+  padding: 14px 20px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: ease 0.2s;
+}
+
+
+.faq {
+  margin: 20px;
+}
+.faq-box:hover {
+  background-color: rgb(60, 58, 58);
+}
+.faq-membership {
+  text-align: center;
+  margin: 57px auto;
+}
+.membership-heading {
+  color: white;
+  font-size: 20px;
+}
+.membership-login {
+  margin-top: 10px;
+}
+.membership-login input {
+  position: relative;
+  height: 50px;
+  width: 370px;
+  border: 1.2px solid rgba(92, 95, 92, 0.856);
+  background-color: rgba(0, 0, 0, 0.527);
+  border-radius: 4px;
+}
+.membership-login input::placeholder {
+  position: relative;
+  left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.671);
+}
+.membership-login button {
+  border: 2px solid var(--setcolor);
+  background-color: var(--setcolor);
+  border-radius: 3px;
+  height: 53px;
+  width: 210px;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  top: 3px;
+}
+.second {
+  flex-direction: row-reverse;
+  margin-bottom: 74px;
+  max-width: 78vw;
+  position: relative;
+}
+.second-mainheading {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.second img {
+  width: 546px;
+  position: relative;z-index: -1;
+}
+
+.second-card {
+  border: 2px solid white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 12px;
+  height: 100px;
+  width: 290px;
+  position: absolute;
+  bottom: 30px;
+  right: 123px;
+}
+.second-card img {
+  height: 77px;
+  width: 56px;
+  padding: 13px 10px;
+  z-index: 2;
+}
+.second-card h4 {
+  position: absolute;
+  top: 30px;
+  left: 77px;
+  z-index: 5;
+}
+.second-card p {
+  position: absolute;
+  top: 51px;
+  left: 77px;
+  font-size: 14px;
+  font-weight: 800;
+  color: rgb(0, 0, 255);
+}
+.second-card :nth-child(4) {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 16px;
+  right: 3px;
+  z-index: 0;
+}
+
+.fourth {
+  flex-direction: row-reverse;
+}
+.footer-itmes ul {
+  list-style-type: none;
+  padding: 25px;
+  margin: 15px;
+}
+.footer-itmes {
+  max-width: 75vw;
+  color: rgba(231, 230, 230, 0.774);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.footer-itmes li {
+  padding-top: 12px;
+}
+.footer-list a {
+  font-family: "Martel Sans", sans-serif;
+  color: rgba(216, 213, 213, 0.801);
+  font-size: 14px;
+}
+.ul-heading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+.footer-itmes .list-2,
+.list-3 {
+  position: relative;
+  bottom: 24px;
+  right: 65px;
+}
+.list-4 {
+  position: relative;
+  bottom: 42px;
+  right: 30px;
+}
+.list-btn {
+  margin: 20px 0;
+}
+
+.section-img .vdo {
+  position: absolute;
+  width: 24vw;
+  top: 41px;
+  right: 112px;
+  z-index: -8;
+}

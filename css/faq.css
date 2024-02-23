@@ -1,0 +1,119 @@
+.desc{
+    background-color: rgb(36, 35, 35);
+    font-size: 1.4rem;
+    max-width: 70vw;
+    margin: 1px auto;
+    height: 195px;
+    padding: 14px 20px;
+    color: white;
+    /* justify-content: space-between;
+    align-items: center; */
+    margin-top: -8px;
+    transition: all linear .5s;
+  }
+  .desc2{
+    background-color: rgb(36, 35, 35);
+    font-size: 1.4rem;
+    max-width: 70vw;
+    margin: 1px auto;
+    height: 160px;
+    padding: 14px 20px;
+    color: white;
+    /* justify-content: space-between;
+    align-items: center; */
+    margin-top: -8px;
+    transition: all linear .5s;
+  }
+  .desc3{
+    background-color: rgb(36, 35, 35);
+    font-size: 1.4rem;
+    max-width: 70vw;
+    margin: 1px auto;
+    height: 320px;
+    padding: 14px 20px;
+    color: white;
+    /* justify-content: space-between;
+    align-items: center; */
+    margin-top: -8px;
+    transition: all linear .5s;
+  }
+  .desc4{
+    background-color: rgb(36, 35, 35);
+    font-size: 1.4rem;
+    max-width: 70vw;
+    margin: 1px auto;
+    height: 150px;
+    padding: 14px 20px;
+    color: white;
+    /* justify-content: space-between;
+    align-items: center; */
+    margin-top: -8px;
+    transition: all linear .5s;
+  }
+  .desc5{
+    background-color: rgb(36, 35, 35);
+    font-size: 1.4rem;
+    max-width: 70vw;
+    margin: 1px auto;
+    height: 100px;
+    padding: 14px 20px;
+    color: white;
+    /* justify-content: space-between;
+    align-items: center; */
+    margin-top: -8px;
+    transition: all linear .5s;
+  }
+  .desc6{
+    background-color: rgb(36, 35, 35);
+    font-size: 1.4rem;
+    max-width: 70vw;
+    margin: 1px auto;
+    height: 210px;
+    padding: 14px 20px;
+    color: white;
+    /* justify-content: space-between;
+    align-items: center; */
+    margin-top: -8px;
+    transition: all linear .5s;
+  }
+  .desc p{
+    font-size: 20px;
+  }
+  .turn{
+    transform: rotate(45deg);
+  }
+  .turn2{
+    transform: rotate(45deg);
+  }
+  .turn3{
+    transform: rotate(45deg);
+  }
+  .turn4{
+    transform: rotate(45deg);
+  }
+  .turn5{
+    transform: rotate(45deg);
+  }
+  .turn6{
+    transform: rotate(45deg);
+  }
+  
+  
+ .hide{
+    display: none;
+ }
+ .hide2{
+    display: none;
+ }
+ .hide3{
+    display: none;
+ }
+ .hide4{
+    display: none;
+ }
+ .hide5{
+    display: none;
+ }
+ .hide6{
+    display: none;
+ }
